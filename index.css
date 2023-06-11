@@ -1,0 +1,213 @@
+:root {
+    --background-color: #3a3e4f;
+    --card-color: #282a36;
+    --text-color: #f8f8f2;
+    --clr-green: #a0faa6;
+    --clr-blue: #8bfbf5;
+    --clr-pink: #ff79c6;
+    --clr-purple: #9b70c6;
+    --clr-yellow: #f1fa94;
+    --gradient: linear-gradient(
+      244deg,
+      #9b70c6 2%,
+      #8bfbf5 49%,
+      #a0faa6 71%,
+      #f1fa94 100%
+    );
+  }
+  
+  body {
+    background-image: url("flowerbackground1.png");
+    background-position: right;
+    background-size: cover;
+    /* background: whitesmoke; */
+    /* background: var(--background-color); */
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--card-color);
+    /* color: var(--text-color); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100vh;
+    gap: 3vh;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  h2 {
+    align-self: center;
+    margin: auto;
+  }
+  .card-a {
+    /* background-image: url("jime\ -\ Copy.png"); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    margin: 50px auto;
+    display: flex;
+    min-width: 28.8rem;
+    height: 46.8rem;
+    /* width: 16rem;
+    height: 26rem; */
+    position: relative;
+    background-image: url("background-a.png");
+    background-size: cover;
+    background-color: floralwhite;
+    /* background-color: var(--card-color); */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6); */
+    border-radius: 5px;
+    /* border-radius: 10px; */
+    align-self: center;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-b {
+    /* background-image: url("jime\ -\ Copy.png"); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    margin: 50px auto;
+    display: flex;
+    min-width: 28.8rem;
+    height: 46.8rem;
+    /* width: 16rem;
+    height: 26rem; */
+    position: relative;
+    background-image: url("background-b.png");
+    background-size: cover;
+    background-color: floralwhite;
+    /* background-color: var(--card-color); */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6); */
+    border-radius: 5px;
+    /* border-radius: 10px; */
+    align-self: center;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  .card3a::after {
+    content: "";
+    background-image: url("jime.png");
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+    writing-mode: vertical-rl;
+    text-align: left;
+    color: black;
+    width: 100%;
+    height: 100%;
+    transform: translateX(95%);
+    transition: ease 1s;
+    /* transition: ease 0.7s; */
+    position: absolute;
+    border-radius: 0px 0px 10px;
+    background-color: var(--clr-purple);
+  }
+  .card3a:hover::after {
+    transform: translateX(0%);
+    border-radius: 5px;
+    background-image: url("jime\ -\ Copy.png");
+  }
+  .card3b::after {
+    content: "";
+    background-image: url("versailles.png");
+    background-size: cover;
+    
+    font-size: 20px;
+    writing-mode: vertical-rl;
+    text-align: left;
+    color: black;
+    width: 100%;
+    height: 100%;
+    transform: translateX(95%);
+    transition: ease 1s;
+    /* transition: ease 0.7s; */
+    position: absolute;
+    border-radius: 0px 0px 10px;
+    background-color: var(--clr-pink);
+  }
+  .card3b:hover::after {
+    transform: translateX(0%);
+    border-radius: 5px;
+    background-image: url("versailles\ -\ Copy.png");
+    background-position: center;
+  }
+  /* .inner-container-a {
+    background-color: floralwhite;
+    border-radius: 5px;
+    border: 2px solid #282a36;
+    margin: 0 25.6px 0px 12.8px;
+    height: 95%;
+    width: 100%;
+  } */
+
+
+  /* EXTRA CARDS */
+  /* ----------------------------------------------------------- */
+    /* .card1::after {
+    content: "How";
+    font-size: 20px;
+    color: var(--clr-yellow);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: var(--clr-yellow);
+    transform: translateY(80%);
+    transition: ease 0.8s;
+    height: 100%;
+    border-radius: 0px 0px 10px 10px;
+    z-index: 2000;
+  }
+  .card1:hover::after {
+    transform: translateY(0%);
+    color: black;
+  }
+  .card2 {
+    background-image: var(--gradient);
+    color: black;
+  }
+  .card2::after {
+    content: "you";
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    width: 101%;
+    height: 101%;
+    transform: translateX(-70%) translateY(-90%);
+    transition: ease 0.7s;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #282a36;
+  }
+  .card2:hover::after {
+    transform: translate(0);
+    border-radius: 10px;
+  } */
+
+
+@media screen and (max-width: 1200px) {
+  .card-a, .card-b {
+    min-width: 24em;
+    height: 39em;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .card-a, .card-b {
+    min-width: 16em;
+    height: 26em;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .card-a, .card-b {
+    min-width: 24em;
+    height: 39em;
+  }
+}
+@media screen and (max-height: 700px) {
+  .card-a, .card-b {
+    min-width: 16em;
+    height: 26em;
+  }
+}
