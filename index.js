@@ -53,7 +53,7 @@ function openExternalLink(url) {
     link.setAttribute('download', 'image.png');
 
     // Set the URL of the .png file
-    link.setAttribute('href', 'https://i.imgur.com/ErHmj9u.jpeg');
+    link.setAttribute('href', 'https://imgur.com/ErHmj9u.jpeg');
 
     // Set the target attribute to '_blank' to open in a new tab
     link.setAttribute('target', '_blank');
