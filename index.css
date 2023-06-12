@@ -62,6 +62,11 @@
     border: 1px solid var(--clr-leafy);
     color: var(--text-color);
   }
+  .download-btn:active {
+    background: var(--clr-olive);
+    border: 1px solid var(--clr-olive);
+    color: var(--text-color);
+  }
   h2 {
     align-self: center;
     margin: 0 auto;
