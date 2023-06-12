@@ -132,7 +132,7 @@
     border-radius: 0px 0px 10px;
     background-color: var(--clr-purple);
   }
-  .card3a:hover::after {
+  .card3a:active::after {
     transform: translateX(0%);
     border-radius: 5px;
     background-image: url("jime\ -\ Copy.png");
@@ -154,7 +154,7 @@
     border-radius: 0px 0px 10px;
     background-color: var(--clr-olive);
   }
-  .card3b:hover::after {
+  .card3b:active::after {
     transform: translateX(0%);
     border-radius: 5px;
     background-image: url("seoul-sheraton\ -\ Copy.png");
@@ -178,7 +178,7 @@
     border-radius: 0px 0px 10px;
     background-color: var(--clr-pink);
   }
-  .card3c:hover::after {
+  .card3c:active::after {
     transform: translateX(0%);
     border-radius: 5px;
     background-image: url("versailles\ -\ Copy.png");
