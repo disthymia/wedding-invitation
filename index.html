@@ -10,17 +10,21 @@
     <script src="index.js"></script>
 </head>
 <body>
-    <div class="card-a card3a cards">
+    <div class="cards-container">
+        <div class="card-a card3a cards">
+            
+        </div>
         
-    </div>
-      
-    <div class="card-b card3b cards">
-        <div class="clickable-area-lodging" onclick="openExternalLink('https://goo.gl/maps/iUzgQ7mjiycrJTtt5')"></div>
-        <div class="clickable-area-transit" onclick="openExternalLink('https://goo.gl/maps/Lsp4ggF2uYcaRBJEA')"></div>
+        <div class="card-b card3b cards">
+            <div class="clickable-area-lodging" onclick="openExternalLink('https://goo.gl/maps/iUzgQ7mjiycrJTtt5')"></div>
+            <div class="clickable-area-transit" onclick="openExternalLink('https://goo.gl/maps/Lsp4ggF2uYcaRBJEA')"></div>
+        </div>
+
+        <div class="card-c card3c cards">
+            <div class="clickable-area-rsvp" onclick="openExternalLink('mailto:dizon.meldrick@gmail.com?subject=Wedding RSVP')"></div>
+        </div>
     </div>
 
-    <div class="card-c card3c cards">
-        <div class="clickable-area-rsvp" onclick="openExternalLink('mailto:dizon.meldrick@gmail.com?subject=Wedding RSVP')"></div>
-    </div>
+    <button class="download-btn" onclick="downloadPNG()">Download Invitation</button>
 </body>
 </html>

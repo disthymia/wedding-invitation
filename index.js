@@ -45,3 +45,19 @@ function openExternalLink(url) {
     window.open(url, '_blank');
   }
   
+  function downloadPNG() {
+    // Create a link element
+    var link = document.createElement('a');
+
+    // Set the download attribute and file name
+    link.setAttribute('download', 'image.png');
+
+    // Set the URL of the .png file
+    link.setAttribute('href', 'https://i.imgur.com/ErHmj9u.jpeg');
+
+    // Set the target attribute to '_blank' to open in a new tab
+    link.setAttribute('target', '_blank');
+
+    // Simulate a click on the link to trigger the download
+    link.click();
+  }
