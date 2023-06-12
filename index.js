@@ -53,7 +53,7 @@ function openExternalLink(url) {
     link.setAttribute('download', 'image.png');
 
     // Set the URL of the .png file
-    link.setAttribute('href', 'https://bashify.io/img/b5ddc28c92ea911a7a0da4776be44bf5');
+    link.setAttribute('href', 'https://scontent-sea1-1.xx.fbcdn.net/v/t1.15752-9/354031466_2135367400001333_1151528875357010124_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=MTSWbH7U-s4AX9P5XUQ&_nc_ht=scontent-sea1-1.xx&oh=03_AdRVjQ5za74uGbouadgCnmzRJCm8z5wjqho6xMa2h8rljA&oe=64AEF353');
 
     // Set the target attribute to '_blank' to open in a new tab
     link.setAttribute('target', '_blank');
