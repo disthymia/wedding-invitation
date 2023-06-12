@@ -53,7 +53,7 @@ function openExternalLink(url) {
     link.setAttribute('download', 'image.png');
 
     // Set the URL of the .png file
-    link.setAttribute('href', 'https://i.imgur.io/ErHmj9u.jpeg');
+    link.setAttribute('href', 'https://bashify.io/img/b5ddc28c92ea911a7a0da4776be44bf5');
 
     // Set the target attribute to '_blank' to open in a new tab
     link.setAttribute('target', '_blank');
