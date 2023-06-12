@@ -7,6 +7,7 @@
     --clr-pink: #ff79c6;
     --clr-purple: #9b70c6;
     --clr-yellow: #f1fa94;
+    --clr-olive: #8ea69e;
     --gradient: linear-gradient(
       244deg,
       #9b70c6 2%,
@@ -15,11 +16,13 @@
       #f1fa94 100%
     );
   }
-  
+
   body {
     background-image: url("flowerbackground1.png");
     background-position: right;
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     /* background: whitesmoke; */
     /* background: var(--background-color); */
     font-family: Helvetica, Arial, sans-serif;
@@ -28,21 +31,22 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 100vh;
+    align-items: flex-start;
+    /* height: 100vh; */
     gap: 3vh;
-    max-width: 1200px;
-    width: 90%;
+    /* max-width: 1200px; */
+    width: 85vw;
     margin: 0 auto;
   }
   h2 {
     align-self: center;
-    margin: auto;
+    margin: 0 auto;
   }
   .card-a {
     /* background-image: url("jime\ -\ Copy.png"); */
     /* background-size: cover; */
     /* background-position: center; */
-    margin: 50px auto;
+    margin: 2rem auto;
     display: flex;
     min-width: 28.8rem;
     height: 46.8rem;
@@ -66,7 +70,31 @@
     /* background-image: url("jime\ -\ Copy.png"); */
     /* background-size: cover; */
     /* background-position: center; */
-    margin: 50px auto;
+    margin: 0 auto;
+    display: flex;
+    min-width: 28.8rem;
+    height: 46.8rem;
+    /* width: 16rem;
+    height: 26rem; */
+    position: relative;
+    background-image: url("background-c.png");
+    background-size: cover;
+    background-color: floralwhite;
+    /* background-color: var(--card-color); */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6); */
+    border-radius: 5px;
+    /* border-radius: 10px; */
+    align-self: center;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-c {
+    /* background-image: url("jime\ -\ Copy.png"); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    margin: 2rem auto;
     display: flex;
     min-width: 28.8rem;
     height: 46.8rem;
@@ -111,6 +139,29 @@
   }
   .card3b::after {
     content: "";
+    background-image: url("seoul-sheraton.png");
+    background-size: cover;
+    font-size: 20px;
+    writing-mode: vertical-rl;
+    text-align: left;
+    color: black;
+    width: 100%;
+    height: 100%;
+    transform: translateX(95%);
+    transition: ease 1s;
+    /* transition: ease 0.7s; */
+    position: absolute;
+    border-radius: 0px 0px 10px;
+    background-color: var(--clr-olive);
+  }
+  .card3b:hover::after {
+    transform: translateX(0%);
+    border-radius: 5px;
+    background-image: url("seoul-sheraton\ -\ Copy.png");
+    background-position: center;
+  }
+  .card3c::after {
+    content: "";
     background-image: url("versailles.png");
     background-size: cover;
     
@@ -127,7 +178,7 @@
     border-radius: 0px 0px 10px;
     background-color: var(--clr-pink);
   }
-  .card3b:hover::after {
+  .card3c:hover::after {
     transform: translateX(0%);
     border-radius: 5px;
     background-image: url("versailles\ -\ Copy.png");
@@ -186,27 +237,44 @@
   } */
 
 
-@media screen and (max-width: 1200px) {
-  .card-a, .card-b {
+@media screen and (min-width: 965px) {
+  body {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1700px) {
+  .card-a, .card-b, .card-c {
     min-width: 24em;
     height: 39em;
   }
 }
-@media screen and (max-width: 1000px) {
-  .card-a, .card-b {
+@media screen and (max-width: 1450px) {
+  .card-a, .card-b, .card-c {
+    min-width: 16em;
+    height: 26em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .card-a, .card-b, .card-c {
     min-width: 16em;
     height: 26em;
   }
 }
 
 @media screen and (max-height: 800px) {
-  .card-a, .card-b {
+  .card-a, .card-b, .card-c {
     min-width: 24em;
     height: 39em;
   }
 }
-@media screen and (max-height: 700px) {
-  .card-a, .card-b {
+@media screen and (max-height: 680px) {
+  .card-a, .card-b, .card-c {
+    min-width: 16em;
+    height: 26em;
+  }
+}
+@media screen and (max-height: 600px) {
+  .card-a, .card-b, .card-c {
     min-width: 16em;
     height: 26em;
   }
