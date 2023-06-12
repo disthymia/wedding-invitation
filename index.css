@@ -243,7 +243,7 @@
     width: 24%;
     height: 15%;
     cursor: pointer;
-    background-color: black;
+    /* background-color: black; */
   }
   .clickable-area-transit {
     position: absolute;
@@ -252,7 +252,7 @@
     width: 24%;
     height: 15%;
     cursor: pointer;
-    background-color: black;
+    /* background-color: black; */
   }
   .clickable-area-rsvp {
     position: absolute;
@@ -261,7 +261,7 @@
     width: 24%;
     height: 14%;
     cursor: pointer;
-    background-color: black;
+    /* background-color: black; */
   }
   
 
