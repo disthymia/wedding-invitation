@@ -248,12 +248,12 @@
     height: 39em;
   }
 }
-@media screen and (max-width: 1450px) {
+/* @media screen and (max-width: 1450px) {
   .card-a, .card-b, .card-c {
     min-width: 16em;
     height: 26em;
   }
-}
+} */
 @media screen and (max-width: 800px) {
   .card-a, .card-b, .card-c {
     min-width: 16em;
@@ -269,8 +269,8 @@
 }
 @media screen and (max-height: 680px) {
   .card-a, .card-b, .card-c {
-    min-width: 16em;
-    height: 26em;
+    min-width: 20em;
+    height: 32.5em;
   }
 }
 @media screen and (max-height: 600px) {
